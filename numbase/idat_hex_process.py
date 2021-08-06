@@ -12,6 +12,7 @@ idat_hex = "789C5D91011280400802BF04FFFF5C75294B5537738A21A27D1E49CFD17DB3937A92
 #print(idat_hex_decompress)
 
 result = binascii.hexlify(zlib.decompress(idat_hex))
+#result = binascii.hexlify(idat_hex)
 #print(result)
 
 bin = result.decode('hex')
