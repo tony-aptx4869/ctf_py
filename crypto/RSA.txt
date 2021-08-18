@@ -1,1 +1,0 @@
-openssl rsautl -decrypt -in cipher_or_encrypted_file -inkey private_key -out decrypted_file
